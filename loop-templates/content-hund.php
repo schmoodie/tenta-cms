@@ -11,8 +11,11 @@
 defined( 'ABSPATH' ) || exit;
 
 the_content();
-the_field('name');
-the_field('gender');
+the_field('name');?>
+<br>
+<?the_field('age');?>
+<br>
+<?the_field('weight');
+?> 
 
-?> <h2>hej</h2>
-
+<a href="<?the_permalink()?>">Se mer av hund horan</a>
