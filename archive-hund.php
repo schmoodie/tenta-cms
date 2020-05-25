@@ -25,20 +25,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
 			<main class="site-main" id="main">
-
+                    <br>
+                    <br>
 				<!-- edit to file -->
-				<h1></h1>
+                <section class="row">
+                
 				<?php
 				
 				if ( have_posts() ) {
-					?>
-					<header class="page-header">
-						<?php
-						the_archive_title( '<h1 class="page-title">', '</h1>' );
-						the_archive_description( '<div class="taxonomy-description">', '</div>' );
-						?>
-					</header><!-- .page-header -->
-					<?php
+				
 					// Start the loop.
 					while ( have_posts() ) {
 						the_post();
@@ -53,7 +48,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 				} else {
 					get_template_part( 'loop-templates/content', 'none' );
 				}
-				?>
+                ?>
+                </section>
 
 			</main><!-- #main -->
 

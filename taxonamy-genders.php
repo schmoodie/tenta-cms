@@ -38,7 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                         foreach ($genders as $gender) {
 
-                          echo '<h1 style="text-align: center;"> All ' .  $gender->name . ' dogs </h1>';
+                          echo ' All ' .  $gender->name . ' dogs </h1>';
 
 
                         }

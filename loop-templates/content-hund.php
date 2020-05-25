@@ -14,6 +14,7 @@ the_content();
 $img = get_field('image');
 ?>
 
+<section class="col-sm">
 <div class="card" style="width: 18rem;">
 
   <img class="card-img-top" src="<?echo $img['url']?>" alt="Card image cap">
@@ -38,8 +39,10 @@ $img = get_field('image');
             echo '<a href="' . esc_url($links_city) . '" class="btn">' . $city->name . '</a>';
         
         }?>
+
   </div>
 </div>
+</section>
 
 
 
