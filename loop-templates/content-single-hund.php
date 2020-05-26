@@ -9,7 +9,7 @@
 defined( 'ABSPATH' ) || exit;
 
 ?>
-    <section class="single-dog-content">
+    <section id="single-dog-content">
         <h1><?the_field('name');?></h1>
         <br>
         <?the_field('description');?>

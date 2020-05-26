@@ -14,6 +14,11 @@ the_content();
 $img = get_field('image');
 ?>
 
+<!-- categories -->
+
+
+
+<!-- main content -->
 <section class="col-sm">
 <div class="card" style="width: 18rem;">
 
